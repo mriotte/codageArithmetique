@@ -159,7 +159,7 @@ Fichier original :      test_files/karamazov.txt (2042003 octets)
 Fichier compressé :     results/karamazov.out (1184859 octets)
 Gain d'espace :         41.98 %
 
-En comparant les journaux de compression d’un fichier comme `aaa.txt` avec ceux d’un exemple de référence, on peut supposer que la **compression fonctionne également sur des cas plus complexes**.  
+En comparant les logs de compression d’un fichier comme `aaa.txt` avec ceux d’un exemple de référence, on peut supposer que la **compression fonctionne également sur des cas plus complexes**.  
 Néanmoins, des **erreurs apparaissent lors de la décompression**, souvent dès le **premier symbole**, à cause d’un **décalage binaire incorrect?**.
 
 ## Remarque sur la mesure du temps
