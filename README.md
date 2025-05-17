@@ -2,7 +2,7 @@
 
 ## Objectif
 
-Ce projet implémente un **algorithme de codage arithmétique** en Go. Il permet de **compresser** et **décompresser** des fichiers binaires, tout en conservant une grande précision dans le calcul des intervalles. Le programme inclut des fichiers de log pour suivre les étapes de compression et décompression, et fournit un test automatique avec mesures de performance.
+Ce projet implémente un **algorithme de codage arithmétique** en Go. Il permet de **compresser** et **décompresser** des fichiers binaires, tout en conservant une grande précision dans le calcul des intervalles. Le programme inclut des fichiers de log pour suivre les étapes de compression, et fournit un test automatique avec mesures de performance.
 
 ---
 
