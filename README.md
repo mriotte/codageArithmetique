@@ -149,7 +149,7 @@ Cependant, le fichier compressé est souvent **plus volumineux** que l’origina
 - Une table de fréquences initiale uniforme,
 - Le manque d’efficacité sur de très courtes séquences.
 
-**Toutefois, sur de grands fichiers textuels, l’algorithme montre une amélioration significative, avec un taux de compression pouvant atteindre environ 50 à 70 %.**  
+**Toutefois, sur de grands fichiers, l’algorithme montre une amélioration significative, avec un taux de compression pouvant atteindre environ 50 à 70 %.**  
 
 Fichier original :      test_files/calvin-P3.ppm (2045075 octets)
 Fichier compressé :     results/calvin-P3.out (609554 octets)
