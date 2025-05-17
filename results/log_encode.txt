@@ -1,0 +1,95 @@
+
+
+>> octet 0x61=97 (a):
+   low  = 0x0000000000
+   high = 0xffffffffff
+   intervalle de l'octet dans le modèle = [97, 98[ pour un total cumulé de 257
+>> mise à jour de low et high:
+   low  = 0x609f609f60
+   high = 0x619e619e60
+
+
+>> octet 0x61=97 (a):
+   low  = 0x609f609f60
+   high = 0x619e619e60
+   intervalle de l'octet dans le modèle = [97, 99[ pour un total cumulé de 258
+>> mise à jour de low et high:
+   low  = 0x60ff4040bc
+   high = 0x61013a4e9d
+
+
+>> octet 0x61=97 (a):
+   low  = 0x60ff4040bc
+   high = 0x61013a4e9d
+   intervalle de l'octet dans le modèle = [97, 100[ pour un total cumulé de 259
+>> mise à jour de low et high:
+   low  = 0x60fffdc76a
+   high = 0x610003a3fd
+>> Les octets de poids fort sont presque égaux, et les octets suivants sont 0xff / 0x00 !
+>> On garde les octets de poids fort, mais on supprime les suivants.
+>> mise à jour de low et high:
+   low  = 0x60fdc76a00
+   high = 0x6103a3fdff
+
+
+>> octet 0x61=97 (a):
+   low  = 0x60fdc76a00
+   high = 0x6103a3fdff
+   intervalle de l'octet dans le modèle = [97, 101[ pour un total cumulé de 260
+>> mise à jour de low et high:
+   low  = 0x60fff73ec0
+   high = 0x61000e54b8
+>> Les octets de poids fort sont presque égaux, et les octets suivants sont 0xff / 0x00 !
+>> On garde les octets de poids fort, mais on supprime les suivants.
+>> mise à jour de low et high:
+   low  = 0x60f73ec000
+   high = 0x610e54b8ff
+
+
+>> octet 0x61=97 (a):
+   low  = 0x60f73ec000
+   high = 0x610e54b8ff
+   intervalle de l'octet dans le modèle = [97, 102[ pour un total cumulé de 261
+>> mise à jour de low et high:
+   low  = 0x60ffd32d36
+   high = 0x61004464fc
+>> Les octets de poids fort sont presque égaux, et les octets suivants sont 0xff / 0x00 !
+>> On garde les octets de poids fort, mais on supprime les suivants.
+>> mise à jour de low et high:
+   low  = 0x60d32d3600
+   high = 0x614464fcff
+
+
+>> octet 0x61=97 (a):
+   low  = 0x60d32d3600
+   high = 0x614464fcff
+   intervalle de l'octet dans le modèle = [97, 103[ pour un total cumulé de 262
+>> mise à jour de low et high:
+   low  = 0x60fd17d897
+   high = 0x60ffaf98bf
+>> Les octets de poids fort sont égaux !
+   On ajoute 0x60 dans le résultat.
+   Après décalage:
+     low  = 0xfd17d89700
+     high = 0xffaf98bfff
+
+
+>> octet 0x100=256 (.):
+   low  = 0xfd17d89700
+   high = 0xffaf98bfff
+   intervalle de l'octet dans le modèle = [262, 263[ pour un total cumulé de 263
+>> mise à jour de low et high:
+   low  = 0xffad12aa6d
+   high = 0xffaf98bfff
+>> Les octets de poids fort sont égaux !
+   On ajoute 0xff dans le résultat.
+   Après décalage:
+     low  = 0xad12aa6d00
+     high = 0xaf98bfffff
+>> Finalisation, on ajoute les octets de low dans le résultat :
+   0xad ajouté
+   0x12 ajouté
+   0xaa ajouté
+   0x6d ajouté
+   0x00 ajouté
+Résultat compressé (en hex) : 60 60 60 60 ff ad 12 aa 6d 00
